@@ -3,12 +3,21 @@ import { useState } from "react";
 function App() {
   return (
     <>
-      Stay updated! Join 60,000+ product managers receiving monthly updates on:
-      Product discovery and building what matters Measuring to ensure updates
-      are a success And much more! Email address email@company.com Subscribe to
-      monthly newsletter Thanks for subscribing! A confirmation email has been
-      sent to ash@loremcompany.com. Please open it and click the button inside
-      to confirm your subscription. Dismiss message
+      <h1>Stay updated!</h1>
+      <h4>Join 60,000+ product managers receiving monthly updates on:</h4>
+      <ul>
+        <li>Product discovery and building what matters</li>
+        <li>Measuring to ensure updates are a success</li>
+        <li>And much more! </li>
+      </ul>
+      <h3>Email adress</h3>
+      <input
+        type="text"
+        name="subscribe"
+        placeholder="email@company.com "
+        value=""
+      />
+      <button type="button">Subscribe to a monthly newsletter</button>
       <div className="bg-gray-600 text-primary">
         Challenge by{" "}
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
