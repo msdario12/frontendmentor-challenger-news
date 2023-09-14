@@ -1,8 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ["./src/**/*.{html,js,jsx}"],
+  content: ["./public/index.html", "./src/**/*.{html,js,jsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "hsl(var(--color-primary) / <alpha-value>)",
+        dark: "hsl(var(--color-dark-slate) / <alpha-value>)",
+        charcoal: "hsl(var(--color-charcoal-grey) / <alpha-value>)",
+        secondary: "hsl(var(--color-grey) / <alpha-value>)",
+        white: "hsl(var(--color-white) / <alpha-value>)",
+      },
+    },
   },
   plugins: [],
 };

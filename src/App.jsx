@@ -1,33 +1,25 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+      Stay updated! Join 60,000+ product managers receiving monthly updates on:
+      Product discovery and building what matters Measuring to ensure updates
+      are a success And much more! Email address email@company.com Subscribe to
+      monthly newsletter Thanks for subscribing! A confirmation email has been
+      sent to ash@loremcompany.com. Please open it and click the button inside
+      to confirm your subscription. Dismiss message
+      <div className="bg-gray-600 text-primary">
+        Challenge by{" "}
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor
         </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+        . Coded by{" "}
+        <a className="font-bold" href="#">
+          Dario Mansilla
         </a>
+        .
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p className="bg-red-300">
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-        <h1></h1>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
     </>
   );
 }

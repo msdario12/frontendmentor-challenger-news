@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: 4deg 100% 67%;
+    --color-dark-slate: 234deg 29% 20%;
+    --color-charcoal-grey: 235deg 18% 26%;
+    --color-grey: 231deg 7% 60%;
+    --color-white: 0deg 0% 100%;
+  }
+}
