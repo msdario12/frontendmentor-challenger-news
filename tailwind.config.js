@@ -10,6 +10,10 @@ export default {
         secondary: "hsl(var(--color-grey) / <alpha-value>)",
         white: "hsl(var(--color-white) / <alpha-value>)",
       },
+      fontFamily: {
+        primary: ["Roboto-Bold", "sans-serif"],
+        secondary: ["Roboto-Regular", "sans-serif"],
+      },
     },
   },
   plugins: [],

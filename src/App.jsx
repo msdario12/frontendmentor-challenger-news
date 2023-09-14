@@ -2,7 +2,7 @@ import { useState } from "react";
 
 function App() {
   return (
-    <>
+    <main className="font-secondary">
       <h1>Stay updated!</h1>
       <h4>Join 60,000+ product managers receiving monthly updates on:</h4>
       <ul>
@@ -29,7 +29,7 @@ function App() {
         </a>
         .
       </div>
-    </>
+    </main>
   );
 }
 
